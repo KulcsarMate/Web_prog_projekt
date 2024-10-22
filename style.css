@@ -8,7 +8,12 @@ footer p {
     color: #00fefc
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    margin-top: auto;
 }
