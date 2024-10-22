@@ -1,14 +1,10 @@
 body {
     background-color: #3f3f3f;
     position: relative;
+
     /* background-image: url(); */
 }
 
 footer p {
     color: #00fefc
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
 }
