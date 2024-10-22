@@ -8,3 +8,13 @@ body {
 footer p {
     color: #00fefc
 }
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    margin-top: auto;
+}
