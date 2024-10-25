@@ -5,7 +5,7 @@ body {
     /* background-image: url(); */
 }
 
-p {
+* {
     color: #ffffff;
 }
 
@@ -32,3 +32,9 @@ header {
     background-color: #00000011;
 }
 
+nav {
+    background-color: #3f3f3f;
+    margin-top: -1px;
+    border-bottom: 1px solid #555555;
+    border-top: 1px solid #555555;
+}
