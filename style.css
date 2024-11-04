@@ -20,6 +20,7 @@ nav a, h5 {
 }
 
 body{
+    font-size: 1.2em;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -65,20 +66,34 @@ main {
     text-align: justify;
 }
 
-h2, h3, h4{
-    padding-top: 20px;
+h1, h2, h3, h4{
     margin-left: -15px;
+    margin-bottom: 7px;
 }
 
 div[class="grid-container"]{
     display: grid;
     column-gap: 30px;
+    row-gap: 10px;
 }
 
-div[class$="column"]:nth-child(1){
+div[class="right"]{
+    grid-column: 2;
+    grid-row: 1 / 5;
+}
+
+div[class="right"]>img{
+    height: 100%;
+}
+
+div[class$="row"]{
     grid-column: 1;
 }
 
-div[class$="column"]:nth-child(2){
-    grid-column: 2;
+main section p:last-child{
+    padding-top: 50px;
+}
+
+@media handheld and max-width(1300px){
+    
 }
