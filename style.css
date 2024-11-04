@@ -1,8 +1,10 @@
 body {
     background-color: #3f3f3f;
     position: relative;
-
-    /* background-image: url(); */
+    background-image: url(imgs/linux_bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 * {
@@ -11,6 +13,10 @@ body {
 
 footer p {
     color: #00fefc
+}
+
+nav a, h5 {
+    color: black
 }
 
 body{
